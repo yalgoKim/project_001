@@ -1,0 +1,10 @@
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5432/board
+    username: testuser1
+    password: 1234
+
